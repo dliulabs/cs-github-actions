@@ -32,6 +32,12 @@ To download and run the sample, follow these steps:
    1. Navigate to the folder that holds the unzipped sample code.
    2. At the command line, type [`dotnet run`](https://docs.microsoft.com/dotnet/core/tools/dotnet-run).
 
+# Run the sample on local console
+
+```
+dotnet run -p ./DotNet.GitHubAction/DotNet.GitHubAction.csproj -b main -n cs-github-actions -o dliulabs --dir ./DotNet.GitHubAction -w /
+```
+
 ## More information
 
 - <https://docs.microsoft.com/dotnet/devops/create-dotnet-github-action>
